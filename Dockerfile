@@ -1,5 +1,5 @@
 FROM node:16 AS builder
-# Above, we set the base image for this first stage as a light weigh node
+# Above, we set the base image for this first stage as a light weigh node 本地版本V16
 
 WORKDIR './app'
 # Above we set the build environment as a folder called /app in the docker container to prevent clashes
